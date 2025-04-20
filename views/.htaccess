@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /paypal-payment-gateway/public/
+
+# Redirect to index.php for pretty URLs
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]

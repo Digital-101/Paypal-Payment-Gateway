@@ -1,0 +1,6 @@
+{
+    "require": {
+        "paypal/paypalhttp": "^1.0",
+        "paypal/paypal-checkout-sdk": "^1.0"
+    }
+}
