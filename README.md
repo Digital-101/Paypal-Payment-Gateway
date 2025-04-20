@@ -17,12 +17,7 @@ This project integrates a PayPal payment gateway into your application, enabling
     cd Paypal-Payment-Gateway
     ```
 
-2. Install dependencies:
-    ```bash
-    npm install
-    ```
-
-3. Create a `.env` file in the root directory and add your PayPal API credentials:
+2. Create a `.env` file in the root directory and add your PayPal API credentials:
     ```
     PAYPAL_CLIENT_ID=your-client-id
     PAYPAL_CLIENT_SECRET=your-client-secret
