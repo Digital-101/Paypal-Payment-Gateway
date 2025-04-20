@@ -9,12 +9,6 @@ This project integrates a PayPal payment gateway into your application, enabling
 - **Customizable**: Adaptable to various business needs and workflows.
 - **Transaction Management**: Handle payment statuses and refunds efficiently.
 
-## Prerequisites
-
-- Node.js installed on your system.
-- A PayPal developer account.
-- PayPal API credentials (Client ID and Secret).
-
 ## Installation
 
 1. Clone the repository:
