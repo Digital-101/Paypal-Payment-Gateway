@@ -36,28 +36,37 @@ This project integrates a PayPal payment gateway into your application, enabling
 
 ## Usage
 
-1. Start the application:
-    ```bash
-    npm start
-    ```
-
-2. Access the application at `http://localhost:3000`.
-
-3. Follow the on-screen instructions to test the payment gateway.
-
-## Folder Structure
-
-```
-/Paypal-Payment-Gateway
-├── src
-│   ├── controllers
-│   ├── routes
-│   ├── services
-│   └── views
+payment-gateway/
+├── backend/
+│   ├── config/
+│   │   ├── config.js
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── paymentController.js
+│   │   └── transactionController.js
+│   ├── models/
+│   │   ├── Payment.js
+│   │   └── Transaction.js
+│   ├── routes/
+│   │   ├── paymentRoutes.js
+│   │   └── index.js
+│   ├── services/
+│   │   ├── paymentService.js
+│   │   └── stripeService.js
+│   ├── app.js
+│   └── package.json
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── CheckoutForm.js
+│   │   │   └── PaymentStatus.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── styles.css
+│   └── package.json
 ├── .env
-├── package.json
 └── README.md
-```
 
 ## Contributing
 
@@ -69,4 +78,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries, please contact [your-email@example.com].
+For any inquiries, please contact [mk9digital@gmail.com].
