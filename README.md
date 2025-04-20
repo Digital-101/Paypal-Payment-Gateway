@@ -34,39 +34,6 @@ This project integrates a PayPal payment gateway into your application, enabling
     PAYPAL_CLIENT_SECRET=your-client-secret
     ```
 
-## Usage
-
-payment-gateway/
-├── backend/
-│   ├── config/
-│   │   ├── config.js
-│   │   └── db.js
-│   ├── controllers/
-│   │   ├── paymentController.js
-│   │   └── transactionController.js
-│   ├── models/
-│   │   ├── Payment.js
-│   │   └── Transaction.js
-│   ├── routes/
-│   │   ├── paymentRoutes.js
-│   │   └── index.js
-│   ├── services/
-│   │   ├── paymentService.js
-│   │   └── stripeService.js
-│   ├── app.js
-│   └── package.json
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── CheckoutForm.js
-│   │   │   └── PaymentStatus.js
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── styles.css
-│   └── package.json
-├── .env
-└── README.md
 
 ## Contributing
 
